@@ -4,7 +4,7 @@
 #include <QHBoxLayout>
 #include <QPlainTextEdit>
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
     QApplication a(argc, argv);
     const int MIN_WIDTH = 800;
@@ -35,7 +35,4 @@ int main(int argc, char *argv[])
     return a.exec();
 }
 
-// Text for test:
-//<h1>Stas, go sleep!</h1>
-//<p>Really it's time to fall asleep</p>
-//<a href="#">link</a>
+
